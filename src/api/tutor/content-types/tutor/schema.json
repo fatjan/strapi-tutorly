@@ -21,17 +21,6 @@
     "description": {
       "type": "text"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "rating": {
       "type": "decimal"
     },
@@ -51,6 +40,9 @@
       "type": "text"
     },
     "videoUrl": {
+      "type": "text"
+    },
+    "image": {
       "type": "text"
     }
   }
