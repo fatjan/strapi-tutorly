@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tutors",
+  "info": {
+    "singularName": "tutor",
+    "pluralName": "tutors",
+    "displayName": "Tutor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "countryOfBirth": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "numberOfReviews": {
+      "type": "integer"
+    },
+    "numberOfLessons": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "numberOfStudents": {
+      "type": "integer"
+    },
+    "languages": {
+      "type": "text"
+    },
+    "videoUrl": {
+      "type": "text"
+    }
+  }
+}
