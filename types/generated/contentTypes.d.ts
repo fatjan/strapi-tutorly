@@ -558,6 +558,7 @@ export interface ApiTutorTutor extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     name: Schema.Attribute.String;
     numberOfLessons: Schema.Attribute.Integer;
+    numberOfLikes: Schema.Attribute.Integer;
     numberOfReviews: Schema.Attribute.Integer;
     numberOfStudents: Schema.Attribute.Integer;
     price: Schema.Attribute.Decimal;
